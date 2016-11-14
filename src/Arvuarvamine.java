@@ -6,8 +6,6 @@ import java.util.Scanner;
  */
 public class Arvuarvamine {
     public static void main(String[] args) {
-
-
         arva();
     }
 
