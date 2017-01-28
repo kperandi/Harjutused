@@ -10,11 +10,14 @@ import java.util.Scanner;
 public class Harjutus2_meetodid {
 
     public static void main(String[] args) {
-        kasutajaSisestus("Sisesta arv", 2, 10);
+
+        int a = kasutajaSisestus("Sisesta arv", 2, 10);
+        tostaKuupi(a);
     }
 
     public static double tostaKuupi(int arv) {
         int vastus = arv * arv * arv;
+        System.out.println(vastus);
         return vastus;
     }
 
